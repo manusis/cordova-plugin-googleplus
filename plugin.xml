@@ -106,10 +106,10 @@
       <config>
         <source url="https://cdn.cocoapods.org/"/>
       </config>
-      <pods use-frameworks="true">
+    <!--  <pods use-frameworks="true">
         <pod name="GoogleSignIn" spec="~> 5.0.2"/>
         <pod name="GoogleUtilities" spec="~> 7.7.0"/>
-      </pods>
+      </pods> -->
     </podspec>
 
 		<hook type="after_plugin_install" src="hooks/ios/prerequisites.js"/>
